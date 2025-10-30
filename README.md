@@ -1,6 +1,6 @@
 # TugasKesembilanPBO
 
-Tugas ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Objek (PBOO). Dengan dosen pangampu, Bapak Bayu Adhi Nugroho. Dimana dalam praktikum ini akan menerapkan konsep _persistence_ dengan _entity class_ dalam projek CRUD (_Create, Read, Update, Delete_).
+Tugas ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Objek (PBO). Dengan dosen pangampu, Bapak Bayu Adhi Nugroho. Dimana dalam praktikum ini akan menerapkan konsep _persistence_ dengan _entity class_ dalam projek CRUD (_Create, Read, Update, Delete_).
 
 # Persistence
 
@@ -12,7 +12,7 @@ _Persistence_ dalam konteks pemrograman berarti penyimpanan data secara permanen
    
 **2. Entity Manager**
 
-  _Entity Manager_ adalah bagian utama dari JPA yang digunakan untuk berhubungan dengan database. Melalui _Entity Manager_, CRUD dapat diterapkan dan membantu menjalankan _query_ serta mengatur transaksi, jadi pengembang tidak perlu menulis banyak kode SQL secara langsung. Dengan _Entity Manage_r, kita bisa membuat objek baru lalu menyimpannya ke _database_ menggunakan perintah **em.persist(newUser)**. Sebelum data disimpan, kita perlu memulai transaksi dengan **beginTransaction()**, dan setelah selesai, kita menutup transaksi dengan **commit()** agar perubahan benar-benar tersimpan di _database_.
+  _EntityManager_ adalah bagian utama dari JPA yang digunakan untuk berhubungan dengan database. Melalui _EntityManager_, CRUD dapat diterapkan dan membantu menjalankan _query_ serta mengatur transaksi, jadi pengembang tidak perlu menulis banyak kode SQL secara langsung. Dengan _EntityManager_, kita bisa membuat objek baru lalu menyimpannya ke _database_ menggunakan perintah **em.persist(newUser)**. Sebelum data disimpan, kita perlu memulai transaksi dengan **beginTransaction()**, dan setelah selesai, kita menutup transaksi dengan **commit()** agar perubahan benar-benar tersimpan di _database_.
 
 **3. Persistence Context**
 
