@@ -16,7 +16,7 @@ _Persistence_ dalam konteks pemrograman berarti penyimpanan data secara permanen
 
 **3. Persistence Context**
 
-   _Persistence Context_ adalah _cache_ sementara yang menyimpan dan mengelola entitas aktif. Ia memastikan setiap entitas unik, memantau perubahan secara otomatis, dan menyinkronkannya ke _database_ saat transaksi di _commit_ melalui _Entity Manager_.
+   _Persistence Context_ adalah _cache_ sementara yang menyimpan dan mengelola entitas aktif. Ia memastikan setiap entitas unik, memantau perubahan secara otomatis, dan menyinkronkannya ke _database_ saat transaksi di _commit_ melalui _EntityManager_.
    
 # Penerapan Persistence menggunakan Entitiy Class dalam Projek CRUD
 **1. Membuat Persistence unit dengan cara klik New pada package lalu klik "Entity Classes From Database"**
